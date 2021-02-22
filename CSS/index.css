@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    min-width: 450px;
+    font-family: 'Indie Flower', cursive;
+}
+
+header{
+    background-image: url(../Images/italian-cuisine-2378729_1280.jpg);
+    background-size: cover;
+    height: 40vh;
+}
+.navbar-brand{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5rem;
+}
+
+.titre{
+    padding-top:12vh;
+   }
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5.5rem;
+}
+.navbar{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+/* cartes */
+
+#cards_accueil{
+    margin-right: 0;
+}
+
+/* carousel  */
+.carousel-item img{
+    width: 95%;
+    height: auto;
+    border-radius: 20%;
+}
+
+#bouton-carousel button{
+    color: whitesmoke;
+    background-color: #0DCAF0;
+    border-radius: 20px;
+}
+
+
+
+/* le menu  */
+#la_carte h2{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1rem 0rem;
+    color: whitesmoke;
+    background-color: #0DCAF0;
+    border-radius: 20px;
+}
+
+#la_carte li span{
+    font-family: 'Permanent Marker', cursive!important;
+    font-weight: lighter;
+}
+#la_carte ul{
+    border-radius: 20px;
+}
+
+.titre_menu{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem!important;
+    margin-top: 2rem;
+    padding: 0.6rem 0rem;
+    background-color: #0DCAF0;
+    border-radius: 20px;
+}
+
+.sous_titre_menu{
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height:auto ;
+    font-size: 1rem;
+    padding-top: 2vh;
+    margin-bottom: 0;
+    }
+
+footer span{
+    color:blue;
+}
+footer span i:hover{
+    color:whitesmoke;
+}
